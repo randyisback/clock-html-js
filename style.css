@@ -100,7 +100,7 @@ p.baslik1 {
   color: aliceblue;
   cursor: pointer;
 }
-/*
+
 /*INSTAGRAM BUTON
 .instagram-link {
   position: absolute;
@@ -159,5 +159,5 @@ p.baslik1 {
 .instagram-link a:hover::after {
   transform: scale(1.5) rotate(180deg);
 }
-*/
+
 /*INSTAGRAM BUTON*/
