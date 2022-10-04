@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2f363e;
+}
+#time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  color: #fff;
+}
+#time .circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#time .circle svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform: rotate(270deg);
+}
+#time .circle svg circle {
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke: #191919;
+  stroke-width: 4;
+  /*transform: translate(5px, 5px);*/
+}
+#time .circle svg circle:nth-child(2) {
+  stroke: var(--clr);
+  stroke-dasharray: 440;
+}
+#time div {
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+#time div span {
+  position: absolute;
+  transform: translate(-50%, -10px);
+  font-size: 0.35em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+#time .ap {
+  position: relative;
+  font-size: 1em;
+  transform: translateX(-20px);
+}
+.dots {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+.dots::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  width: 15px;
+  height: 15px;
+  background: var(--clr);
+  border-radius: 50%;
+  box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
+}
+
+.baslik {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+p.baslik1 {
+  font-size: 80px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  cursor: pointer;
+}
+/*
+/*INSTAGRAM BUTON
+.instagram-link {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 45%;
+  left: 70%;
+  font-weight: 500;
+}
+.instagram-link img {
+  margin-right: 0.7rem;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.7));
+}
+
+.instagram-link a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgba(120, 66, 201, 0.4);
+  border-radius: 1rem;
+  padding: 0.8rem;
+  position: relative;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 1;
+  right: 400px;
+  top: 230px;
+}
+
+.instagram-link a::after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(135deg, #1fd1f9 0%, #b621fe 74%);
+  transition: all 0.3s ease;
+}
+
+.instagram-link a:hover {
+  transform: scale(1.5) rotate(-10deg);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.instagram-link a:hover::after {
+  transform: scale(1.5) rotate(180deg);
+}
+*/
+/*INSTAGRAM BUTON*/
